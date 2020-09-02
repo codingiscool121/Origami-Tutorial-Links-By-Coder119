@@ -1,196 +1,126 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Login To Your Account</title>
-        <!-- The core Firebase JS SDK is always required and must be listed first -->
-        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
-        <script src ="login.js"></script>
-        <link rel="shortcut icon" href="favicon.jpg" />
-    </head>
-    <body>
-        <h1>Login To Your Account</h1>
-        <div id ="formContainer"></div>
-        <div id="header"></div>
-        <input type = "email" placeholder="email>" id="email">
-        <input type = "password" placeholder="password>" id="password">
-        <button onclick = "signUp()" id="signUp">Sign Up </button>
-        <button onclick = "signUp()" id="signIn">Sign In </button>
-        
-        <!-- <button onclick = "signOut()" id="signOut">Sign Out </button> -->
+<head>
+    <title>
+        Origami Tutorial Links By Coder119
+    </title>
+    <link rel = "stylesheet"
+    type="text/css"
+    href = "style.css"
+    />
+</head>
+
+<body>
+    <div class = "header">
+    <img src = "logo.png" width=100 height=100 style="margin-left:60px; margin-top:30px;">
+
+    <h1 style="margin-left:-215px"> Origami Tutorial Links:</h1>
+    <p style="margin-top:40px"><i>Disclaimer: None of the content in these links is made by Coder119. Only this website and it's design are by Coder119. Information noted below is from websites whose links are provided in the fun facts section.</i></p>
+    <hr width = -1050px>
+    <p style="margin-top:40px">
+        Click on the images to go to youtube or article links on how to make that specific origami animal.
+    </p>
+</div>
+
+<!-- <hr width = -1050px> -->
+
+<div class = "grid">
+<a target = "_blank" href = "https://www.origami-tutorial.com/origami-penguin.html"> <img src = "penguin2.jpg" width=300 height=300></a> 
+<br>
+<div class = "item">
+<p><ol>Here are three interesting facts about penguins:</p></ol>
+<ul>
+    <li>Penguins can't fly. </li>
+    <li>While other birds have wings for flying, penguins have adapted flippers to help them swim in the water.</li>
+    <li>No penguins live in the north pole.</li>
+    <a target = "_blank" href = "https://www.coolaustralia.org/fun-facts-about-penguins/">For more fun facts about penguins, click here.</a>
+    <br>
+</ul>
+</div>
+
+
+<div class = "grid">
+    <a target = "_blank" href = "https://www.youtube.com/watch?v=pM7lzOEC82g"> <img src = "origamitutle.jpg" width=300 height=300></a> 
+<div class = "item">
+    <p><ol>Here are three interesting facts about turtles:</p></ol>
+<ul>
+    <li>Turtles have existed for over 215 million years. </li>
+    <li>The largest turtle species is the leatherback turtle.</li>
+    <li>Turtles are very adaptive, and can be found on every continent, except Antartica.</li>
+    <a target = "_blank" href = "https://www.livescience.com/52361-turtle-facts.html">For more fun facts about turtles, click here.</a>
+    <br>
+</ul>
+</div>
+</div>
+
+
+
+<div class = "grid">
+    <a target = "_blank" href = "https://origami.guide/origami-animals/origami-birds/origami-bird/"> <img src = "origamibird.jpg" width=300 height=300></a> 
+<div class = "item">
+    <p><ol>Here are three interesting facts about birds:</p></ol>
+<ul>
+    <li>Many birds kept as pets like living in pairs for companionship. </li>
+    <li>Chickens have over 200 distinct noises they use to communicate.</li>
+    <li>Mocking birds can imitae many sounds, from a cat's meow to a squeaking door.</li>
+    <a target = "_blank" href = "https://www.mspca.org/pet_resources/interesting-facts-about-birds/">For more fun facts about birds, click here.</a>
+    <br>
+</ul>
+</div>
+
+
+</div>
+
+<div class = "grid">
+    <a target = "_blank" href = "https://origami.guide/origami-animals/origami-frogs/origami-jumping-frog/"> <img src = "frogorigami.jpg" width=300 height=300></a> 
+<div class = "item">
+    <p><ol>Here are three interesting facts about frogs:</p></ol>
+<ul>
+    <li>Many frogs can jump 20 feet above their own height. </li>
+    <li>When a male frog croaks, it is to attract a female.</li>
+    <li>Frogs don't drink water from their mouths-they absorb it through their skin.</li>
+    <a target = "_blank" href = "https://www.earthrangers.com/top-10/top-ten-awesome-facts-about-frogs/">For more fun facts about turtles, click here.</a>
+    <br>
+</ul>
+</div>
+</div>
+
+
+     <!--Below is the first image, and it's attributes.-->
+     <div class = "grid">
+        <br>
+        <a target = "_blank" href = "https://www.youtube.com/watch?v=bVQcM9eWvxM"> <img src = "http://www.make-origami.com/images/animals/easy-origami-dog-index.jpg"width=300 height=300></a>
+        <br>
+        <div class = "item">
+        <p><ol>Here are three interesting facts about dogs:</p></ol>
+        <ul>
+            <li>Three dogs survived the titanic sinking. </li>
+            <li>A Bloodhounds sense of smell can be used for evidence in court. This type of dog can follow tracks that are over 300 hours old, and can stay on a trail for 130 miles.</li>
+            <li>A Greyhound could beat a cheetah in a long distance race- these dogs are amazing long distance learners and can keep a spped of 35 mph for 7 miles.</li>
+            <a target = "_blank" href =  "https://www.purina.co.uk/dogs/behaviour-and-training/understanding-dog-behaviours/amazing-dog-facts">For more fun facts about dogs, click here. This is also the website used for these facts.</a>
+        </ul>
     </div>
-    </body>
-<style>
-    body{
-    background-color: #34495e
-    }
-
-    h1{
-    color: white;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin: 100px auto;
-    text-align: center;
-}
-
-formContainer{
-    background-color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    width: 25%;
-    height: 45%;
-    margin: 10px auto;
-}
-
-#header{
-    width: 100%;
-    height: 10px;
-    background: black;
-}
-
-#email{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #33FFEB;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-
-   /* width: 70%;
-   height: 40px;
-   display: block;
-   margin: 0 auto;
-   border: none;
-   outline: none;
-   border-bottom: 2px solid black;  */
-}
+    
+    
+        <!-- <hr width = -1050px> -->
+        <div class = "grid">
+            <a target = "_blank" href = "https://www.origami-tutorial.com/origami-lion.html"> <img src = "https://www.origami-tutorial.com/images/origami-lion/origami-lion.jpg" width=300 height=300></a>
+    <br>
+         <!--Below is the last image, and it's attributes.-->
+    <div class = "item">
+    <p><ol>Here are three interesting facts about lions:</p></ol>
+    <ul>
+        <li>Lions don't live in the jungle- they mostly live in the grasslands or the savannah. </li>
+        <li>Lions hunt their prey during storms- this gives them a huge advantage over their prey, as lions are accustomed to seeing in the dark.</li>
+        <li>Lions are the only cats who roar together-prides often roar together to mark their territory- a roar can be heard from five miles away.</li>
+        <a target = "_blank" href = "https://africafreak.com/interesting-facts-about-lions">For more fun facts about lions, click here.</a>
+        <br>
+        <a target = "_blank" href =  "https://www.wwf.org.uk/learn/fascinating-facts/lions">For even more fun facts about lions, click here.</a>
+    </ul>
+    </div>
 
 
-#password{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #3498db;
-    padding: 14px 10px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    /* width: 70%;
-    height: 40px;
-    display: block;
-    margin: 10 auto;
-    border: 2px solid #3498db;
-    outline: none;
-    border-bottom: 2px solid black; */
-}
-
-#signUp{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 40px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-    /* background-color: #ff4d4d;
-    color: white;
-    font-weight: bold;
-    padding: 15 px 32 px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 13px;
-    margin-top: 20px;
-    margin-left: 54px; */
-} 
-
-#signIn{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 40px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-    /* background-color: #32ff7e;
-    color: white;
-    font-weight: bold;
-    border:none;
-    padding: 15 px 32 px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 13px;
-    margin-top: 20px;
-    margin-left: 54px; */
-}
-
-/* /* #signOut{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 20px auto;
-    text-align: center;
-    border: 2px solid #2ecc71;
-    padding: 14px 40px;
-    width: 200px;
-    outline: none;
-    color: white;
-    border-radius: 24px;
-    transition: 0.25s;
-    cursor: pointer;
-    /* background-color: #fffa65;
-    color: black;
-    padding: 10 px 32 px;
-    border-radius: 10px;
-    text-align: center;
-    text-decoration:none;
-    display: inline-block;
-    font-size: 13px;
-    margin-top: 12px;
-    margin-left: 112px; 
-}*/
-
-button:hover{
-box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</style>
-
+<!-- <hr width = -1050px> -->
+          
+</body>
 </html>
